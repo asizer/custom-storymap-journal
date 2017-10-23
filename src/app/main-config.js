@@ -70,6 +70,21 @@ function defineDojoConfig()
 			{
 				name: 'commonResources',
 				location: path1 + (app.isProduction ? 'resources/common' : 'app/storymaps/common/_resources/')
+			},
+			{
+				name: 'd3',
+				location: path1 + 'lib-app/cedar',
+				main: 'd3.min'
+			},
+			{
+				name: 'vega',
+				location: path1 + 'lib-app/cedar',
+				main: 'vega'
+			},
+			{
+				name: 'cedar',
+				location: path1 + 'lib-app/cedar',
+				main: 'cedar'
 			}
 		],
 		aliases: [
